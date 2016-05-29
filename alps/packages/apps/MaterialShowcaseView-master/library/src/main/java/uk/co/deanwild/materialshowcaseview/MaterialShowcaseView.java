@@ -16,6 +16,7 @@ import android.os.Handler;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -299,6 +300,9 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
             if (yPos > midPoint) {
                 // target is in lower half of screen, we'll sit above it
                 mContentTopMargin = 0;
+                Log.d("Kintell", "Kintell mContentBottomMargin: " + mContentBottomMargin
+                + "height:" + height + "yPos:" + yPos + "radius:" + radius + "mShapePadding:"
+                + mShapePadding);
                 mContentBottomMargin = (height - yPos) + radius + mShapePadding;
                 mGravity = Gravity.BOTTOM;
             } else {

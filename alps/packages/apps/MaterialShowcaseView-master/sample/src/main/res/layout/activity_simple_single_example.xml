@@ -6,6 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#00FF00"
     tools:context="uk.co.deanwild.materialshowcaseviewsample.SimpleSingleExample">
 
     <Button
@@ -17,11 +18,11 @@
 
 
     <Button
-        android:layout_alignParentBottom="true"
         android:id="@+id/btn_reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
         android:text="Reset" />
 
 
