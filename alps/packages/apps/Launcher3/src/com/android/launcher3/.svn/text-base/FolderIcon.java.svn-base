@@ -103,7 +103,7 @@ public class FolderIcon extends FrameLayout implements FolderListener {
     public static Drawable sSharedFolderLeaveBehind = null;
 
     private ImageView mPreviewBackground;
-    private BubbleTextView mFolderName;
+    public BubbleTextView mFolderName;    //Vsun:Add first run Jio's folder guide.
 
     FolderRingAnimator mFolderRingAnimator = null;
     
