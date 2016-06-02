@@ -133,6 +133,8 @@ public class FolderIcon extends FrameLayout implements FolderListener {
     private Alarm mOpenAlarm = new Alarm();
     private ItemInfo mDragInfo;
 
+	public static FolderIcon mjioFolderIcon;    //Vsun:Add first run Jio's folder guide.
+
     // M:[OP09][CF] @{
     boolean mSupportEditAndHideApps;
     // M:[OP09][CF] }@
@@ -219,6 +221,14 @@ public class FolderIcon extends FrameLayout implements FolderListener {
         folderInfo.addListener(icon);
 
         icon.setOnFocusChangeListener(launcher.mFocusHandler);
+
+		//Vsun:Add first run Jio's folder guide {@
+		String folderName = icon.mFolderName.getText().toString();
+		if (folderName != null && folderName.equals("Jio")){
+			mjioFolderIcon = icon;
+		}
+		//Vsun:@}
+		
         return icon;
     }
 

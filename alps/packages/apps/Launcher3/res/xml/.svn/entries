@@ -1,15 +1,15 @@
 10
 
 dir
-24890
+25080
 svn://192.168.1.114/repo/branches/V051B_reliance/alps/packages/apps/Launcher3/res/xml
 svn://192.168.1.114/repo
 
 
 
-2016-03-05T05:55:27.763326Z
-22847
-hanxiaoli
+2016-05-27T07:56:38.817284Z
+24938
+liyong
 
 
 
@@ -66,11 +66,11 @@ file
 
 
 
-2016-05-24T09:47:44.467516Z
-b0b67bbc4bf5a313e2081c26c7ee6b9d
-2016-03-05T05:55:27.763326Z
-22847
-hanxiaoli
+2016-05-28T02:47:32.380479Z
+100201c14005a7426bece900a8e8ee98
+2016-05-27T07:56:38.817284Z
+24938
+liyong
 has-props
 
 
@@ -92,7 +92,7 @@ has-props
 
 
 
-8849
+10713
 
 default_toppackage.xml
 file

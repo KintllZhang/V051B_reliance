@@ -1,15 +1,15 @@
 10
 
 dir
-24890
+25080
 svn://192.168.1.114/repo/branches/V051B_reliance/alps/packages/apps/Launcher3
 svn://192.168.1.114/repo
 
 
 
-2016-05-03T06:30:33.043632Z
-24317
-yaoweijie
+2016-05-27T07:56:38.817284Z
+24938
+liyong
 
 
 
@@ -25,40 +25,6 @@ yaoweijie
 
 
 128d51da-c271-42b3-9789-f6712167aa4a
-
-NOTICE
-file
-
-
-
-
-2016-05-24T09:47:44.783516Z
-9645f39e9db895a4aa6e02cb57294595
-2016-02-17T05:41:03.161518Z
-22403
-zhangqi
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10695
 
 WallpaperPicker
 dir
@@ -420,4 +386,38 @@ zhangqi
 
 
 2394
+
+NOTICE
+file
+
+
+
+
+2016-05-24T09:47:44.783516Z
+9645f39e9db895a4aa6e02cb57294595
+2016-02-17T05:41:03.161518Z
+22403
+zhangqi
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10695
 

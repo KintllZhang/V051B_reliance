@@ -1,7 +1,7 @@
 10
 
 dir
-24890
+25080
 svn://192.168.1.114/repo/branches/V051B_reliance/alps/packages/apps/Launcher3/WallpaperPicker/src/com/android/photos
 svn://192.168.1.114/repo
 
@@ -25,6 +25,9 @@ zhangqi
 
 
 128d51da-c271-42b3-9789-f6712167aa4a
+
+views
+dir
 
 BitmapRegionTileSource.java
 file
@@ -59,7 +62,4 @@ has-props
 
 
 23527
-
-views
-dir
 

@@ -1,7 +1,7 @@
 10
 
 dir
-24890
+25080
 svn://192.168.1.114/repo/branches/V051B_reliance/alps/packages/apps/Launcher3/WallpaperPicker
 svn://192.168.1.114/repo
 
@@ -25,6 +25,40 @@ zhangqi
 
 
 128d51da-c271-42b3-9789-f6712167aa4a
+
+README
+file
+
+
+
+
+2016-05-24T09:47:42.543516Z
+eccc4568a0c83b1092971cda3eb83154
+2016-02-17T05:41:03.161518Z
+22403
+zhangqi
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+278
 
 AndroidManifest.xml
 file
@@ -65,38 +99,4 @@ dir
 
 res
 dir
-
-README
-file
-
-
-
-
-2016-05-24T09:47:42.543516Z
-eccc4568a0c83b1092971cda3eb83154
-2016-02-17T05:41:03.161518Z
-22403
-zhangqi
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-278
 

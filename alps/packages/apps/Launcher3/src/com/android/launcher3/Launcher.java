@@ -144,6 +144,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
+import com.android.launcher3.materialshowcaseview.MaterialShowcaseView; //Vsun:Add first run Jio's folder guide.
 
 /**
  * Default launcher application.
@@ -2126,6 +2127,52 @@ public class Launcher extends Activity
             } finally {}
         }
     }
+
+	//Vsun:Add first run Jio's folder guide {@
+
+	/**
+     * Sets up transparent navigation and status bars in LMP.
+     * This method is a no-op for other platform versions.
+     */
+    @TargetApi(19)
+    private void setupTransparentSystemBarsForLmpForShowFolderGuide() {
+        // TODO(sansid): use the APIs directly when compiling against L sdk.
+        // Currently we use reflection to access the flags and the API to set the transparency
+        // on the System bars.
+        if (Utilities.isLmpOrAbove()) {
+            try {
+                getWindow().getAttributes().systemUiVisibility |=
+                        (View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
+                getWindow().clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS
+                        | WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+                Field drawsSysBackgroundsField = WindowManager.LayoutParams.class.getField(
+                        "FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS");
+                getWindow().addFlags(drawsSysBackgroundsField.getInt(null));
+
+                Method setStatusBarColorMethod =
+                        Window.class.getDeclaredMethod("setStatusBarColor", int.class);
+                Method setNavigationBarColorMethod =
+                        Window.class.getDeclaredMethod("setNavigationBarColor", int.class);
+                setStatusBarColorMethod.invoke(getWindow(), Color.TRANSPARENT);
+                setNavigationBarColorMethod.invoke(getWindow(), 
+					Color.parseColor("#80000000"));
+            } catch (NoSuchFieldException e) {
+                Log.w(TAG, "NoSuchFieldException while setting up transparent bars");
+            } catch (NoSuchMethodException ex) {
+                Log.w(TAG, "NoSuchMethodException while setting up transparent bars");
+            } catch (IllegalAccessException e) {
+                Log.w(TAG, "IllegalAccessException while setting up transparent bars");
+            } catch (IllegalArgumentException e) {
+                Log.w(TAG, "IllegalArgumentException while setting up transparent bars");
+            } catch (InvocationTargetException e) {
+                Log.w(TAG, "InvocationTargetException while setting up transparent bars");
+            } finally {}
+        }
+    }
+
+	//Vsun:@}
 
     @Override
     public void onDetachedFromWindow() {
@@ -4699,8 +4746,6 @@ public class Launcher extends Activity
     }
 
     public View getQsbBar() {
-		//vsun:remove QsbBar{@
-		/*
         if (mLauncherCallbacks != null && mLauncherCallbacks.providesSearch()) {
             return mLauncherCallbacks.getQsbBar();
         }
@@ -4797,10 +4842,6 @@ public class Launcher extends Activity
         }
         }
         return mQsb;
-		*/
-		
-		return null;
-		//vsun:@}
     }
 
     @Override
@@ -5993,19 +6034,53 @@ public class Launcher extends Activity
         editor.apply();
     }
 
+	//Vsun:Add first run Jio's folder guide {@
     private void showFirstRunClings() {
         // The two first run cling paths are mutually exclusive, if the launcher is preinstalled
         // on the device, then we always show the first run cling experience (or if there is no
         // launcher2). Otherwise, we prompt the user upon started for migration
-        LauncherClings launcherClings = new LauncherClings(this);
-        if (launcherClings.shouldShowFirstRunOrMigrationClings()) {
+        mLauncherClings = new LauncherClings(this);
+        if (mLauncherClings.shouldShowFirstRunOrMigrationClings()) {
             if (mModel.canMigrateFromOldLauncherDb(this)) {
-                launcherClings.showMigrationCling();
+                mLauncherClings.showMigrationCling();
             } else {
-                launcherClings.showLongPressCling(true);
+                mLauncherClings.showLongPressCling(true);
+
+				mBuilder = new MaterialShowcaseView.Builder(Launcher.this);
+				mWorkspace.post(showFolderGuideRunnable);								
             }
         }
     }
+
+	private LauncherClings mLauncherClings;
+	private MaterialShowcaseView.Builder mBuilder;
+
+    private Runnable showFolderGuideRunnable = new Runnable() {
+        public void run() {
+            Log.d(TAG, "showFolderGuideRunnable run mLauncherClings.isRunFolderGuide:"
+                    + mLauncherClings.isRunFolderGuide);
+			
+            if (FolderIcon.mjioFolderIcon != null && mLauncherClings.isRunFolderGuide) {
+                mLauncherClings.isRunFolderGuide = false;
+
+				setupTransparentSystemBarsForLmpForShowFolderGuide();
+				
+                mBuilder.setTarget(FolderIcon.mjioFolderIcon);
+                        mBuilder.setDismissText("Ok,got it!");
+                        mBuilder.setContentText("Tap on the folder to \nexplore exciting Jio \napps");
+                        mBuilder.withRectangleShape();
+                        mBuilder.show();
+            }
+			
+            if (mBuilder.wasDismissed() || mLauncherClings.isLongPress) {
+				mWorkspace.removeCallbacks(showFolderGuideRunnable);
+				setupTransparentSystemBarsForLmp();
+			} else { 
+			    mWorkspace.postDelayed(showFolderGuideRunnable, ACTIVITY_START_DELAY);
+			}
+        }
+    };
+	//Vsun:@}
 
     void showWorkspaceSearchAndHotseat() {
         if (mWorkspace != null) mWorkspace.setAlpha(1f);

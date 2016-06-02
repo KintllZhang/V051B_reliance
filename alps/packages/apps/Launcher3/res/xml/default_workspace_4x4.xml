@@ -139,6 +139,59 @@
 
     </folder>
 
+    <folder
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="3" 
+        launcher:title="@string/jio_folder">
+        
+        <!-- Jio Play -->  
+        <favorite
+                launcher:packageName="com.jio.jioplay.tv"
+                launcher:className="com.mobitv.client.mobitv.StartupActivity"/>
+
+        <!-- Jio Beats -->
+		<favorite
+                launcher:packageName="com.jio.media.jiobeats"
+                launcher:className="com.jio.media.mobile.apps.jiobeats.splash.SplashScreen"/>
+
+
+        <!-- Jio On-Demand -->  
+        <favorite
+                launcher:packageName="com.jio.media.ondemand"
+                launcher:className="com.jio.media.mobile.apps.jioondemand.splash.SplashScreenActivity"/>
+
+        <!-- Jio Mags -->
+		<favorite
+                launcher:packageName="com.jio.media.jiomags"
+                launcher:className="com.jio.media.mags.jiomags.splash.SplashScreen"/>
+
+        <!-- Jio XpressNews -->
+		<favorite
+                launcher:packageName="com.jio.media.jioxpressnews"
+                launcher:className="com.jio.media.news.IndexActivity"/>        
+
+        <!-- Jio Money -->
+		<favorite
+                launcher:packageName="com.corpay.mwallet"
+                launcher:className="com.corpay.mwallet.signin.IntroActivity"/>
+
+        <!-- My Jio -->
+		<favorite
+                launcher:packageName="com.reliance.jio.rtss"
+                launcher:className="com.reliance.jio.rtss.activities.StartActivity"/>
+
+        <!-- LYF Care -->
+		<!--<favorite
+                launcher:packageName="com.jio.lyfcare"
+                launcher:className="com.jio.lyfcare.activities.SplashActivity"/>-->
+
+        <!-- NetVelocity -->
+		<!--<favorite
+                launcher:packageName="com.inn.nvconsumer"
+                launcher:className="com.inn.nvconsumer.activity.HomeActivity"/>-->
+    </folder>
+
     <favorite
         launcher:packageName="com.android.gallery3d"
         launcher:className="com.android.camera.CameraLauncher"

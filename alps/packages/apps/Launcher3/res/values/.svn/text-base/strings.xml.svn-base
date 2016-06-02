@@ -326,4 +326,5 @@ s -->
         <item>Sat</item>
     </string-array>
 <string name="Google">Google</string>
+<string name="jio_folder">Jio</string>
 </resources>

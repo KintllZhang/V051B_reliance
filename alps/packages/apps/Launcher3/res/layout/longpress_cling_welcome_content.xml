@@ -13,7 +13,7 @@
         android:paddingLeft="36dp"
         android:paddingRight="36dp"
         android:text="@string/first_run_cling_title"
-        android:textColor="#E10000FF"
+        android:textColor="#E1000000"
         android:textSize="34sp" />
 
     <TextView

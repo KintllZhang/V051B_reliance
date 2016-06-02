@@ -1,7 +1,7 @@
 10
 
 dir
-24890
+25080
 svn://192.168.1.114/repo/branches/V051B_reliance/alps/packages/apps/Launcher3/src/com/android/launcher3/compat
 svn://192.168.1.114/repo
 
@@ -25,40 +25,6 @@ zhangqi
 
 
 128d51da-c271-42b3-9789-f6712167aa4a
-
-LauncherActivityInfoCompatVL.java
-file
-
-
-
-
-2016-05-24T09:47:42.711516Z
-9903c6a484f720b8a2b4ae4b4850e861
-2016-02-17T05:41:03.161518Z
-22403
-zhangqi
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2062
 
 PackageInstallerCompatV16.java
 file
@@ -230,40 +196,6 @@ has-props
 
 2446
 
-UserManagerCompatVL.java
-file
-
-
-
-
-2016-05-24T09:47:42.711516Z
-71f67e79d5579843a52839a74de80222
-2016-02-17T05:41:03.161518Z
-22403
-zhangqi
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2168
-
 PackageInstallerCompatVL.java
 file
 
@@ -297,6 +229,40 @@ has-props
 
 
 7551
+
+UserManagerCompatVL.java
+file
+
+
+
+
+2016-05-24T09:47:42.711516Z
+71f67e79d5579843a52839a74de80222
+2016-02-17T05:41:03.161518Z
+22403
+zhangqi
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2168
 
 AppWidgetManagerCompatV16.java
 file
@@ -468,40 +434,6 @@ has-props
 
 3756
 
-LauncherActivityInfoCompatV16.java
-file
-
-
-
-
-2016-05-24T09:47:42.715516Z
-b7076bdceb943260087f4fa688ad444f
-2016-02-17T05:41:03.161518Z
-22403
-zhangqi
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3389
-
 LauncherAppsCompatVL.java
 file
 
@@ -535,6 +467,40 @@ has-props
 
 
 5349
+
+LauncherActivityInfoCompatV16.java
+file
+
+
+
+
+2016-05-24T09:47:42.715516Z
+b7076bdceb943260087f4fa688ad444f
+2016-02-17T05:41:03.161518Z
+22403
+zhangqi
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3389
 
 LauncherActivityInfoCompat.java
 file
@@ -603,4 +569,38 @@ has-props
 
 
 2758
+
+LauncherActivityInfoCompatVL.java
+file
+
+
+
+
+2016-05-24T09:47:42.711516Z
+9903c6a484f720b8a2b4ae4b4850e861
+2016-02-17T05:41:03.161518Z
+22403
+zhangqi
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2062
 

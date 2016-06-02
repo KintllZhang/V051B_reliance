@@ -1,15 +1,15 @@
 10
 
 dir
-24890
+25080
 svn://192.168.1.114/repo/branches/V051B_reliance/alps/packages/apps/Launcher3/res
 svn://192.168.1.114/repo
 
 
 
-2016-05-03T06:30:33.043632Z
-24317
-yaoweijie
+2016-05-27T07:56:38.817284Z
+24938
+liyong
 
 
 
@@ -26,325 +26,13 @@ yaoweijie
 
 128d51da-c271-42b3-9789-f6712167aa4a
 
-values-es-land
-dir
-
-values-ko-land
-dir
-
-values-tr
-dir
-
-values-lo-rLA
-dir
-
-drawable-xxhdpi
-dir
-
-values-rm-land
-dir
-
-values-ms-land
-dir
-
-values-uk-land
-dir
-
-values-el
-dir
-
-values-ru-land
-dir
-
-values-sw-land
-dir
-
-values-es
-dir
-
-values-et
-dir
-
-values-zu-land
-dir
-
-drawable-sw720dp-hdpi
-dir
-
-values-nb-land
-dir
-
-values-ms
-dir
-
-values-uk
-dir
-
-values-fr-land
-dir
-
-values-sw600dp-hdpi
-dir
-
-values-fa
-dir
-
-values-es-rUS-land
-dir
-
-values-sl-land
-dir
-
-values-hy-rAM
-dir
-
-values-lv-land
-dir
-
-values-fi
-dir
-
-values-nb
-dir
-
-values-ca-land
-dir
-
-values-zh-rCN
-dir
-
-values
-dir
-
-values-sw600dp
-dir
-
-layout-sw600dp-port
-dir
-
-values-bg-land
-dir
-
-values-sw340dp
-dir
-
-xml-sw720dp
-dir
-
-values-fr
-dir
-
-values-am-land
-dir
-
-values-nl
-dir
-
-drawable-mdpi
-dir
-
-mipmap-mdpi
-dir
-
-values-vi
-dir
-
-values-sw340dp-land
-dir
-
-values-et-rEE
-dir
-
-values-xhdpi-1280x720
-dir
-
-values-en-rGB-land
-dir
-
-values-km-rKH
-dir
-
-drawable-nodpi
-dir
-
-values-ro-land
-dir
-
-values-mn-rMN
-dir
-
-values-ky-rKG
-dir
-
-drawable-hdpi
-dir
-
-mipmap-hdpi
-dir
-
-values-kk-rKZ
-dir
-
-values-en-rUS
-dir
-
-values-zh-rCN-land
-dir
-
-values-sw600dp-xhdpi
-dir
-
-values-ar-land
-dir
-
-layout
-dir
-
-values-nl-land
-dir
-
-values-th-land
-dir
-
-values-sw720dp-port
-dir
-
-values-zh-rTW
-dir
-
-values-hi
-dir
-
-values-si-rLK
-dir
-
-values-fa-land
-dir
-
-values-sv-land
-dir
-
-values-de-land
-dir
-
-values-sw720dp
-dir
-
-values-ja-land
-dir
-
-values-hr
-dir
-
-values-fi-land
-dir
-
-values-en-rGB
-dir
-
-values-pl
-dir
-
-values-uz-rUZ
-dir
-
-values-hu
-dir
-
-values-cs-land
-dir
-
-values-pt
-dir
-
-values-hdpi
-dir
-
-values-my-rZG
-dir
-
-values-af
-dir
-
-values-hu-land
-dir
-
-mipmap-xxhdpi
-dir
-
-values-sk-land
-dir
-
-values-gl-rES
-dir
-
-values-vi-land
-dir
-
-values-iw-land
-dir
-
-values-am
-dir
-
-values-kn-rIN
-dir
-
-values-ne-rNP
-dir
-
-drawable-land-xxhdpi
-dir
-
-layout-port
-dir
-
-values-ar
-dir
-
-values-in
-dir
-
-values-fr-rCA
-dir
-
-values-xhdpi
-dir
-
-values-el-land
-dir
-
-values-it
-dir
-
-values-de-rAT
-dir
-
-values-iw
-dir
-
-values-sw600dp-land
-dir
-
-layout-sw720dp
-dir
-
-values-port
-dir
-
-values-hr-land
+values-sw340dp-port
 dir
 
 values-be
 dir
 
-values-pt-rPT
-dir
-
-anim
-dir
-
-values-it-land
+drawable-land-mdpi
 dir
 
 values-bg
@@ -353,166 +41,22 @@ dir
 values-ja
 dir
 
-values-ta-rIN
-dir
-
-drawable-xhdpi
-dir
-
-values-te-rIN
-dir
-
-values-bn
-dir
-
-values-tr-land
-dir
-
-values-xxhdpi
-dir
-
-values-ka-rGE
-dir
-
-drawable-land-xhdpi
-dir
-
-values-v17
-dir
-
-values-rm
-dir
-
-values-ur-rPK
-dir
-
-values-ro
-dir
-
-values-sw720dp-land
-dir
-
-values-ca
-dir
-
-drawable
-dir
-
-values-ru
-dir
-
-drawable-land-mdpi
-dir
-
-values-en-rIN
-dir
-
-drawable-sw720dp-xxhdpi
-dir
-
-values-zu
-dir
-
-values-ml-rIN
-dir
-
-values-mk-rMK
-dir
-
-values-eu-rES
-dir
-
-values-af-land
-dir
-
-values-zh-rHK
-dir
-
-values-mr-rIN
-dir
-
-values-cs
-dir
-
-values-is-rIS
-dir
-
-values-zh-rTW-land
-dir
-
-values-ko
-dir
-
-values-sk
-dir
-
-values-sl
-dir
-
-values-my-rMM
-dir
-
-values-es-rUS
-dir
-
-values-in-land
-dir
-
-drawable-land-hdpi
-dir
-
-values-sr
-dir
-
-values-da
-dir
-
-values-ms-rMY
-dir
-
-interpolator
-dir
-
-values-sw340dp-port
-dir
-
-values-pl-land
-dir
-
-values-sv
-dir
-
-values-de
-dir
-
-values-sw
-dir
-
-values-tl-land
-dir
-
-values-lt-land
+drawable-nodpi
 dir
 
 layout-land
 dir
 
-values-pt-land
+values-ro-land
 dir
 
-mipmap-xhdpi
+values-hy-rAM
 dir
 
-values-da-land
+values-bn
 dir
 
-values-sr-land
-dir
-
-values-pt-rPT-land
-dir
-
-drawable-sw720dp-xhdpi
+values-zh-rCN
 dir
 
 xml
@@ -521,16 +65,169 @@ dir
 xml-sw600dp
 dir
 
-values-bn-rBD
+values-zh-rTW-land
 dir
 
-values-th
+drawable-mdpi
 dir
 
 values-land
 dir
 
-drawable-sw720dp-mdpi
+values-ar-land
+dir
+
+values-rm
+dir
+
+layout
+dir
+
+values-ro
+dir
+
+values-hdpi-960x540
+dir
+
+values-et-rEE
+dir
+
+drawable-land-hdpi
+dir
+
+values-ca
+dir
+
+values-xhdpi-1280x720
+dir
+
+values-nl-land
+dir
+
+values-ru
+dir
+
+values-th-land
+dir
+
+values-km-rKH
+dir
+
+values-zu
+dir
+
+values-fa-land
+dir
+
+values-pt-rPT-land
+dir
+
+values-mn-rMN
+dir
+
+values-ky-rKG
+dir
+
+values-de-land
+dir
+
+values-sv-land
+dir
+
+values-cs
+dir
+
+drawable-hdpi
+dir
+
+values-sw720dp
+dir
+
+values-ja-land
+dir
+
+values-kk-rKZ
+dir
+
+values-en-rUS
+dir
+
+values-ko
+dir
+
+values-fi-land
+dir
+
+values-sk
+dir
+
+values-sl
+dir
+
+values-cs-land
+dir
+
+values-sr
+dir
+
+values-da
+dir
+
+drawable
+dir
+
+values-sw600dp-hdpi
+dir
+
+values-hu-land
+dir
+
+values-sv
+dir
+
+values-de
+dir
+
+values-sk-land
+dir
+
+values-sw
+dir
+
+values-vi-land
+dir
+
+values-zh-rTW
+dir
+
+values-iw-land
+dir
+
+values-si-rLK
+dir
+
+layout-sw600dp-port
+dir
+
+xml-sw720dp
+dir
+
+values-en-rGB
+dir
+
+values-th
+dir
+
+values-uz-rUZ
+dir
+
+values-el-land
+dir
+
+values-sw600dp-xhdpi
+dir
+
+mipmap-mdpi
 dir
 
 values-tl
@@ -539,9 +236,312 @@ dir
 values-lt
 dir
 
+values-sw340dp-land
+dir
+
 values-lv
 dir
 
-values-hdpi-960x540
+layout-sw720dp
+dir
+
+values-my-rZG
+dir
+
+values-hr-land
+dir
+
+values-tr
+dir
+
+mipmap-xxhdpi
+dir
+
+values-it-land
+dir
+
+values-gl-rES
+dir
+
+drawable-sw720dp-xxhdpi
+dir
+
+values-es-rUS-land
+dir
+
+values-kn-rIN
+dir
+
+drawable-xhdpi
+dir
+
+values-ne-rNP
+dir
+
+values-el
+dir
+
+values-tr-land
+dir
+
+values-es
+dir
+
+mipmap-hdpi
+dir
+
+values-et
+dir
+
+values-fr-rCA
+dir
+
+values-de-rAT
+dir
+
+values-ms
+dir
+
+values-uk
+dir
+
+values-en-rGB-land
+dir
+
+values-fa
+dir
+
+values-pt-rPT
+dir
+
+values-sw720dp-port
+dir
+
+values-ta-rIN
+dir
+
+values-fi
+dir
+
+values-te-rIN
+dir
+
+values-nb
+dir
+
+values-af-land
+dir
+
+drawable-land-xxhdpi
+dir
+
+values-xxhdpi
+dir
+
+values-ka-rGE
+dir
+
+values-fr
+dir
+
+values-nl
+dir
+
+values-xhdpi
+dir
+
+values-zh-rCN-land
+dir
+
+values-vi
+dir
+
+values-ur-rPK
+dir
+
+values-in-land
+dir
+
+values-hdpi
+dir
+
+drawable-xxhdpi
+dir
+
+anim
+dir
+
+values-pl-land
+dir
+
+values-en-rIN
+dir
+
+values-lt-land
+dir
+
+values-tl-land
+dir
+
+values-ml-rIN
+dir
+
+values-mk-rMK
+dir
+
+values-pt-land
+dir
+
+values-da-land
+dir
+
+values-sr-land
+dir
+
+values-eu-rES
+dir
+
+layout-port
+dir
+
+drawable-sw720dp-xhdpi
+dir
+
+values-zh-rHK
+dir
+
+values-mr-rIN
+dir
+
+values-is-rIS
+dir
+
+values-es-rUS
+dir
+
+values-my-rMM
+dir
+
+values-sw600dp-land
+dir
+
+values-es-land
+dir
+
+values-ms-rMY
+dir
+
+values-port
+dir
+
+values-ko-land
+dir
+
+values-rm-land
+dir
+
+values-uk-land
+dir
+
+values-ms-land
+dir
+
+values-hi
+dir
+
+values-ru-land
+dir
+
+values-bn-rBD
+dir
+
+values-sw-land
+dir
+
+values-hr
+dir
+
+drawable-land-xhdpi
+dir
+
+values-zu-land
+dir
+
+values-pl
+dir
+
+values-nb-land
+dir
+
+values-hu
+dir
+
+drawable-sw720dp-mdpi
+dir
+
+values-sw720dp-land
+dir
+
+values-pt
+dir
+
+values-fr-land
+dir
+
+interpolator
+dir
+
+values-af
+dir
+
+values-lo-rLA
+dir
+
+values-sl-land
+dir
+
+values-am
+dir
+
+values-lv-land
+dir
+
+values-ca-land
+dir
+
+mipmap-xhdpi
+dir
+
+values-ar
+dir
+
+values
+dir
+
+values-sw600dp
+dir
+
+values-bg-land
+dir
+
+values-sw340dp
+dir
+
+values-in
+dir
+
+values-am-land
+dir
+
+drawable-sw720dp-hdpi
+dir
+
+values-it
+dir
+
+values-v17
+dir
+
+values-iw
 dir
 

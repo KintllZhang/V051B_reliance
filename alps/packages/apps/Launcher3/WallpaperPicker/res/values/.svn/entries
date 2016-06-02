@@ -1,7 +1,7 @@
 10
 
 dir
-24890
+25080
 svn://192.168.1.114/repo/branches/V051B_reliance/alps/packages/apps/Launcher3/WallpaperPicker/res/values
 svn://192.168.1.114/repo
 
@@ -25,6 +25,40 @@ zhangqi
 
 
 128d51da-c271-42b3-9789-f6712167aa4a
+
+dimens.xml
+file
+
+
+
+
+2016-05-24T09:47:40.379516Z
+f9c87904a6232509c115fefaad06e64d
+2016-02-17T05:41:03.161518Z
+22403
+zhangqi
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+895
 
 colors.xml
 file
@@ -161,38 +195,4 @@ has-props
 
 
 2673
-
-dimens.xml
-file
-
-
-
-
-2016-05-24T09:47:40.379516Z
-f9c87904a6232509c115fefaad06e64d
-2016-02-17T05:41:03.161518Z
-22403
-zhangqi
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-895
 

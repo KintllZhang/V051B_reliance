@@ -57,6 +57,11 @@ class LauncherClings implements OnClickListener {
     private Launcher mLauncher;
     private LayoutInflater mInflater;
 
+	//Vsun:Add first run Jio's folder guide {@
+	public static boolean isRunFolderGuide = false;
+	public static boolean isLongPress = false;
+	//Vsun:@}
+
     /** Ctor */
     public LauncherClings(Launcher launcher) {
         mLauncher = launcher;
@@ -85,6 +90,7 @@ class LauncherClings implements OnClickListener {
             // Disable the migration cling
             dismissMigrationCling();
         } else if (id == R.id.cling_dismiss_longpress_info) {
+            isRunFolderGuide = true;    //Vsun:Add first run Jio's folder guide.
             dismissLongPressCling();
         }
     }
@@ -130,6 +136,7 @@ class LauncherClings implements OnClickListener {
             @Override
             public boolean onLongClick(View v) {
                 mLauncher.getWorkspace().enterOverviewMode();
+				isLongPress = true; //Vsun:Add first run Jio's folder guide.
                 dismissLongPressCling();
                 return true;
             }
